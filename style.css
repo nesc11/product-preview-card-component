@@ -76,7 +76,7 @@ main {
 .card {
     background-color: var(--clr-neutral-white);
     width: 90%;
-    max-width: 700px;
+    max-width: 650px;
     margin-inline: auto;
     border-radius: 10px;
 }
@@ -169,14 +169,15 @@ main {
 
     .card-text {
         padding-inline-start: .5rem;
-        padding-inline-end: 2.5rem;
+        padding-inline-end: 1.25rem;
+        padding-block: 1.5rem;
     }
 
     .product-name {
-        margin-block: 1.5rem;
+        margin-block: 1rem;
     }
 
     .product-prices {
-        margin-block-end: 1.5rem;
+        margin-block-end: 1rem;
     }
 }
